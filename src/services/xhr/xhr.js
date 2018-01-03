@@ -1,5 +1,5 @@
 /**
- * Created by mudong on //.
+ * Created by dengqiu on //.
  */
 
 import Vue from 'vue';

@@ -1,6 +1,6 @@
 /**
  * 控制全屏的loading 窗
- * Created by mudong on 2017/9/28 0028.
+ * Created by dengqiu on 2017/9/28 0028.
  */
 import {Loading} from 'element-ui';
 

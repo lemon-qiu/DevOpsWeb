@@ -4,7 +4,7 @@
 // import {MessageBox} from 'element-ui';
 /**
  * 项目全局配置文件
- * Created by mudong on 2017/9/30 0030.
+ * Created by dengqiu on 2017/9/30 0030.
  */
 
 /**

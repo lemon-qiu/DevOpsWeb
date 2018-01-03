@@ -2,7 +2,7 @@
   "name": "devops_web",
   "version": "1.0.0",
   "description": "devops web from vue",
-  "author": "母东",
+  "author": "邓秋",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

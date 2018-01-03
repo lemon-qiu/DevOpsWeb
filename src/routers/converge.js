@@ -1,5 +1,5 @@
 /**
- * Created by mudong on 2017/9/30 0030.
+ * Created by dengqiu on 2017/9/30 0030.
  */
 import workbenchViewMap from './map/workbenchViewMap';
 import indexViewMap from './map/indexViewMap';

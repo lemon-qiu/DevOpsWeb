@@ -1,5 +1,5 @@
 /**
- * Created by mudong on 2017/10/18 0018.
+ * Created by dengqiu on 2017/10/18 0018.
  */
 import xhr from './xhr/xhr';
 
