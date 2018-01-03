@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html,body{
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #333;
+  height: 100%;
+  word-wrap:break-word;
+  line-height: normal !important;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+}
+a{
+  color: darkslategray;
+  outline: none;
+  -moz-outline-style: none;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover{
+  text-decoration: none;
+}
+.theme-color-main{
+  color: #20a0ff !important;
+}
+.main-content-header{
+  height: auto !important;
+  padding: 0 !important;
+}
+.margin-0{
+  margin: 0 !important;
+}
+.padding-0{
+  padding: 0 !important;
+}
+.main-content-container{
+  overflow: auto;
+  padding: 8px 15px !important;
+  background-color: white;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.margin-top-20{
+  margin-top: 20px;
+}
+.margin-bottom-10{
+  margin-bottom: 10px !important;
+}
+.margin-bottom-30{
+  margin-bottom: 30px !important;
+}
+.padding-top-10{
+  padding-top: 10px;
+}
+.seg{
+  width: 1px;
+  border-right: 1px solid #cccccc;
+  margin: 0 6px;
+}
+
+/*解决一些样式冲突*/
+label{
+  margin-bottom: 0 !important;
+  font-weight: normal !important;
+}
+table{
+  border-collapse: inherit !important;
+}
+i[class*='fa']{
+  margin-right: 3px !important;
+}
+.el-table th, .el-table td{
+  padding: 7px 0 !important;
+}
+.layui-layer-btn a{
+  height: 30px !important;
+}
+.layui-more-btn-custom .layui-layer-btn .layui-layer-btn0{
+  border: 1px solid #dedede !important;
+  background-color: white !important;
+  color: #333 !important;
+}
+.layui-more-btn-custom .layui-layer-btn .layui-layer-btn1{
+  border-color: #1E9FFF;
+  background-color: #1E9FFF;
+  color: #fff;
+}
+
+/*
+* vuebar 通用滚动条样式
+*/
+.vuebar-element {
+  height: 100%;
+  width: 100%;
+}
+.vb > .vb-dragger {
+  z-index: 1002 !important;
+  width: 10px;
+  right: 0;
+  height: 40px;
+  cursor: pointer;
+}
+
+.vb > .vb-dragger > .vb-dragger-styler {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: rotate3d(0,0,0,0);
+  transform: rotate3d(0,0,0,0);
+  -webkit-transition:
+    background-color 100ms ease-out,
+    margin 100ms ease-out,
+    height 100ms ease-out;
+  transition:
+    background-color 100ms ease-out,
+    margin 100ms ease-out,
+    height 100ms ease-out;
+  background-color: rgba(0, 0, 0,.1);
+  margin: 3px 3px 3px 3px;
+  border-radius: 20px;
+  height: calc(100% - 10px);
+  display: block;
+}
+
+.vb.vb-scrolling-phantom > .vb-dragger > .vb-dragger-styler {
+  background-color: rgba(0, 0, 0,.3);
+}
+
+.vb > .vb-dragger:hover > .vb-dragger-styler {
+  background-color: rgba(0, 0, 0,0.8);
+  margin: 0px;
+  height: 100%;
+}
+
+.vb.vb-dragging > .vb-dragger > .vb-dragger-styler {
+  background-color: rgba(0, 0, 0,0.8);
+  margin: 0px;
+  height: 100%;
+}
+
+.vb.vb-dragging-phantom > .vb-dragger > .vb-dragger-styler {
+  background-color: rgba(0, 0, 0,0.8);
+}
